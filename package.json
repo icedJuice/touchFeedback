@@ -1,0 +1,16 @@
+{
+  "name": "touchfeedback",
+  "version": "1.0.0",
+  "description": "touch feedback like weChat's lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "touch",
+    "feedback",
+    "touchfeedback"
+  ],
+  "author": "icedJuice",
+  "license": "ISC"
+}
