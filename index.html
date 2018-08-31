@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>寒玉知-touchFeedback</title>
+</head>
+<style type="text/css">
+    #body div{
+        height: 140px;
+        margin-bottom: 10px;
+        background-color: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        transition: all 0.3s ease;
+    }
+    #body .box.active{
+        background-color: #CCCCCC;
+    }
+</style>
+<body>
+
+    <div id="body">
+        <div></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <script src="./src/index.js"></script>
+    <script>
+
+        new TouchFeedback('box','active');
+
+    </script>
+</body>
+</html>
